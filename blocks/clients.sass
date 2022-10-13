@@ -1,0 +1,43 @@
+.clients
+    padding: 120px 120px 100px 120px
+    background-color: #000
+    &__title
+        @include title-40fz
+    &__subtitle
+        @include text-24fz
+    &__wrapper
+        display: flex
+        flex-direction: row
+        justify-content: center
+        margin-top: 50px
+        gap: 60px
+        height: 30px
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+    .clients
+        padding: 120px 70px 100px 
+        &__title
+            font-size: 35px
+        &__subtitle
+            font-size: 20px
+        &__wrapper
+            gap: 30px
+
+@media screen and (min-width: 320px) and (max-width: 767px)
+    .clients
+        padding: 80px 120px 100px 120px
+        background-color: #000
+        &__title
+            font-size: 35px
+        &__subtitle
+            font-size: 20px
+        &__wrapper
+            display: flex
+            flex-direction: column
+            align-items: center
+            margin: 0 auto
+            padding-top: 120px
+            padding-bottom: 50px
+            gap: 30px
+            height: 200px
+            width: 100px

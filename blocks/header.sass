@@ -1,0 +1,77 @@
+.nav 
+    height: 90px
+    padding: 0 120px
+    background-color: $main_bg
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    &__logo
+        display: flex
+        align-items: center
+    &__list
+        display: flex
+        flex-direction: row
+        align-items: center
+        gap: 32px
+        height: 50px
+        padding: 20px
+        .nav__link
+            color: #fff
+            text-decoration: none
+            &:hover
+                border-bottom: 1px solid white
+        .nav__button
+            background-color: #fff
+            width: 155px
+            height: 42px
+            border-radius: 14px
+            text-align: center
+            font-size: 16px
+            font-weight: 700
+            cursor: pointer
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+    .nav 
+        padding: 0 50px
+        &__list
+            .nav__link
+                font-size: 14px
+            .nav__button
+                width: 125px
+
+@media screen and (min-width: 576px) and (max-width: 767px)
+    .nav 
+        padding: 0 20px
+        &__logo
+            display: flex
+            align-items: center
+            margin-left: -10px
+        &__list
+            margin-left: 50px
+            .nav__link
+                font-size: 14px
+            .nav__button
+                display: none
+
+@media screen and (min-width: 320px) and (max-width: 575px)
+    .nav 
+        height: 120px
+        padding: 0 10px
+        display: block
+        &__logo
+            display: flex
+            justify-content: center
+            margin-bottom: 50px
+            padding-top: 10px
+        &__list
+            display: flex
+            flex-direction: row
+            justify-content: center
+            flex-wrap: wrap 
+            padding: 0
+            height: max-content
+            .nav__link
+                margin-top: -50px
+                font-size: 16px
+            .nav__button
+                display: none

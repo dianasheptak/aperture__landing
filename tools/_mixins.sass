@@ -1,0 +1,40 @@
+@mixin mainBtn 
+    position: relative
+    width: 143px
+    height: 42px
+    color: #000
+    border-radius: 14px
+    border: none
+    font-size: 15px
+    text-align: center
+    padding-left: 25px
+    cursor: pointer
+    &::after
+            content: ''
+            position: absolute
+            left: 4px
+            top: 5px
+            width: 32px
+            height: 32px
+            border-radius: 50%
+            background-color: #000
+
+@mixin descrTitle
+        font-size: 14px
+        text-transform: uppercase
+        letter: spacing 2px
+        color: #fff
+
+@mixin descrText
+        color: $grey
+        font-size: 14px
+
+@mixin title-40fz
+        text-align: center
+        color: #fff
+        font-size: 40px
+
+@mixin text-24fz
+        text-align: center
+        color: #fff
+        font-size: 24px

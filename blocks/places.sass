@@ -1,0 +1,67 @@
+.mount-fuji, .monstera, .himalayas
+    height: 600px
+    &__info
+        width: 300px
+        padding-top: 20%
+        padding-left: 75%
+    &__title
+        @include descrTitle
+    &__text
+        @include descrText
+
+.mount-fuji
+    background-image: url('images/second_bg.png')
+
+.monstera
+    background-image: url('images/leafs.png')
+    margin-top: -7px
+
+.himalayas
+    background-image: url('images/third_bg.png')
+    
+@media screen and (min-width: 992px) and (max-width: 1200px)
+    .mount-fuji, .monstera, .himalayas
+        height: 600px
+        &__info
+            width: 300px
+            padding-top: 20%
+            padding-left: 60%
+
+@media screen and (min-width: 768px) and (max-width: 991px)
+    .mount-fuji, .monstera, .himalayas
+        height: 500px
+        &__info
+            width: 300px
+            padding-top: 30%
+            padding-left: 55%
+
+    .himalayas
+        background-position: bottom
+
+@media screen and (min-width: 576px) and (max-width: 767px)
+    .mount-fuji, .monstera, .himalayas
+        height: 500px
+        &__info
+            width: 250px
+            padding-top: 40%
+            padding-left: 55%
+        &__title
+            @include descrTitle
+        &__text
+            @include descrText
+
+    .mount-fuji, .himalayas
+        background-size: cover
+
+@media screen and (min-width: 320px) and (max-width: 575px)
+    .mount-fuji, .monstera, .himalayas
+        height: 400px
+        &__info
+            width: 200px
+            padding-top: 40%
+            padding-left: 41%
+        &__title, &__text
+            font-size: 13px
+            
+    .mount-fuji, .himalayas
+        background-size: cover
