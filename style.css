@@ -287,16 +287,16 @@
   background-repeat: no-repeat;
 }
 .occupation__blocks .occupation__block:nth-child(1) {
-  background-image: url("./images/img1.png");
+  background-image: url("images/img1.png");
 }
 .occupation__blocks .occupation__block:nth-child(2) {
-  background-image: url("./images/img2.png");
+  background-image: url("images/img2.png");
 }
 .occupation__blocks .occupation__block:nth-child(3) {
-  background-image: url("./images/img3.png");
+  background-image: url("images/img3.png");
 }
 .occupation__blocks .occupation__block:nth-child(4) {
-  background-image: url("./images/img4.png");
+  background-image: url("images/img4.png");
 }
 .occupation__blocks .occupation__block-info {
   padding: 391px 30px 30px;
@@ -424,16 +424,16 @@
 }
 
 .mount-fuji {
-  background-image: url("./images/second_bg.png");
+  background-image: url("images/second_bg.png");
 }
 
 .monstera {
-  background-image: url("./images/leafs.png");
+  background-image: url("images/leafs.png");
   margin-top: -7px;
 }
 
 .himalayas {
-  background-image: url("./images/third_bg.png");
+  background-image: url("images/third_bg.png");
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -499,7 +499,7 @@
   }
 }
 .preview {
-  background-image: url("./images/main_bg.png");
+  background-image: url("images/main_bg.png");
   height: 100vh;
   display: flex;
   flex-direction: column;
