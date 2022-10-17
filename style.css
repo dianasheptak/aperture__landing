@@ -258,6 +258,9 @@
   .contacts__subtitle {
     font-size: 17px;
   }
+  .contacts__button {
+    padding-left: 40px;
+  }
 }
 .occupation {
   background-color: #000;
@@ -691,6 +694,7 @@ html {
   }
   .tools__btn {
     margin: 0 auto;
+    padding-left: 40px;
   }
 }
 
