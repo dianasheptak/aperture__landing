@@ -15,8 +15,7 @@
     &__text
         @include descrText
         color: #000
-    &__info
-        padding-top: 17%
+    
 
 .monstera
     background-image: url('images/leafs.png')
@@ -71,3 +70,9 @@
             
     .mount-fuji, .himalayas
         background-size: cover
+
+@media screen and (min-width: 1700px) and (max-width: 1860px)
+    .mount-fuji
+        &__info
+            padding-top: 15.5%
+
