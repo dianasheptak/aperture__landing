@@ -427,7 +427,16 @@
 }
 
 .mount-fuji {
-  background-image: url("images/second_bg.png");
+  background-image: url("https://wallup.net/wp-content/uploads/2014/10/nature/Black_White_Beach_Landscape.jpg");
+}
+.mount-fuji__text {
+  color: #C0C0C0;
+  font-size: 14px;
+  color: #000;
+}
+.mount-fuji__info {
+  padding-top: 22%;
+  padding-left: 75%;
 }
 
 .monstera {
@@ -502,8 +511,11 @@
   }
 }
 .preview {
-  background-image: url("images/main_bg.png");
+  background-image: url("https://wallpaperaccess.com/full/1812893.jpg");
+  background-position: center;
   height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -514,7 +526,7 @@
   padding-top: 220px;
 }
 .preview__position, .preview__text {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   text-align: center;
   color: #C0C0C0;
