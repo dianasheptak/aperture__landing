@@ -434,6 +434,9 @@
   font-size: 14px;
   color: #000;
 }
+.mount-fuji__info {
+  padding-top: 17%;
+}
 
 .monstera {
   background-image: url("images/leafs.png");
